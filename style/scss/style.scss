@@ -5,13 +5,47 @@
     margin: 0;
     box-sizing: border-box;
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
 }
 body{
     background-color: $bgColor;
     color: $color;
 }
-.clac{
+.calc{
     width: 400px;
     margin: 100px auto;
+}
+.display{
+   
+    text-align: right;
+    font-size:60px;
+    padding: 20px;
+}
+
+.keypad-table tr:first-child .key{
+    background-color: $keyColor;
+    &:active{
+        background-color: $keyColorActive;
+    }
+}
+.keypad-table tr td:last-child .key{
+    background-color: $keyAmlgar;
+    &:active{
+        background-color: $keyAmlgarActive;
+    }
+}
+.key{
+    width: 90px;
+    height: 90px;
+    border: 1px solid $bgColor;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 90px;
+    margin:5px ;
+    background-color: $keyDisplayShow;
+    user-select: none;
+    cursor: pointer;
+    &:active{
+        background-color: $keyDisplayShowActive;
+    }
 }
