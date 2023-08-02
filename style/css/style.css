@@ -14,6 +14,7 @@ body {
 .calc {
   width: 400px;
   margin: 100px auto;
+  border-radius: 30px;
 }
 
 .display {
@@ -39,7 +40,6 @@ body {
 .key {
   width: 90px;
   height: 90px;
-  border: 1px solid #000;
   text-align: center;
   line-height: 90px;
   border-radius: 90px;

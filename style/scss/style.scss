@@ -14,6 +14,9 @@ body{
 .calc{
     width: 400px;
     margin: 100px auto;
+    border-radius: 30px;
+   
+    
 }
 .display{
    
@@ -21,7 +24,9 @@ body{
     font-size:60px;
     padding: 20px;
 }
-
+.keypad-table{
+  
+}
 .keypad-table tr:first-child .key{
     background-color: $keyColor;
     &:active{
@@ -37,7 +42,7 @@ body{
 .key{
     width: 90px;
     height: 90px;
-    border: 1px solid $bgColor;
+    
     text-align: center;
     line-height: 90px;
     border-radius: 90px;
